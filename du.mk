@@ -1,13 +1,13 @@
 # Inherit AOSP device configuration for inc.
 $(call inherit-product, device/hp/tenderloin/full_tenderloin.mk)
 
-# Inherit some common evervolv stuff.
-$(call inherit-product, vendor/ev/config/common_full_tablet_wifionly.mk)
+# Inherit some common du stuff.
+$(call inherit-product, vendor/du/config/common_full_tablet_wifionly.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := ev_tenderloin
+PRODUCT_NAME := du_tenderloin
 PRODUCT_BRAND := HP
 PRODUCT_DEVICE := tenderloin
 PRODUCT_MODEL := Touchpad
